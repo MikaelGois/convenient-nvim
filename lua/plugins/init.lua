@@ -49,7 +49,11 @@ return {
   },
   
   -- Smart-runner
-  { "MikaelGois/smart-runner.nvim" },
+  {
+  "mikaelgois/smart-runner.nvim",
+  -- 'opts' is optional and is used to configure the plugin.
+  opts = {},
+  },
   
   -- Temas
   { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
